@@ -1,29 +1,23 @@
-# wxbarcode
+# wxcode
 
   微信小程序生成条码和二维码模块。
 
   [![NPM Version][npm-image]][npm-url]
   [![NPM Downloads][downloads-image]][downloads-url]
 
-[![NPM](https://nodei.co/npm/wxbarcode.png?compact=true)](https://nodei.co/npm/wxbarcode/)
-
-## 效果
-
-![截图](https://raw.githubusercontent.com/alsey/wxbarcode/master/capture.png)
-
 ## 安装
 
 ```bash
-$ npm install wxbarcode
+$ npm install wxcode
 ```
 
 ## 使用方法
 
 ```js
-import wxbarcode from 'wxbarcode'
+import wxcode from 'wxcode'
 
-wxbarcode.barcode('barcode', '1234567890123456789', 680, 200);
-wxbarcode.qrcode('qrcode', '1234567890123456789', 420, 420);
+wxcode.barcode('barcode', '1234567890123456789', 680, 200);
+wxcode.qrcode('qrcode', '1234567890123456789', 420, 420);
 ```
 
 ### 条形码
